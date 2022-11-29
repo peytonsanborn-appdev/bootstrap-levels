@@ -1,0 +1,49 @@
+body{
+  padding: 100px
+}
+
+.pretty-button {
+  color: blue;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  width: 100pm;
+  height: 500px;
+  border: none;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  background-color: blue;
+  font-family: sans-serif;
+  padding: 50px;
+}
+
+.pretty-button:hover {
+  background-color: rgb(151, 153, 162);
+}
+
+.pretty-button:active {
+  box-shadow: 2px 2px 5px #fc894d;
+}
+
+.basic-button {
+  padding: 15px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.basic-button:hover {
+  background-color: royalblue;
+}
+
+.basic-button:active {
+  box-shadow: 2px 2px 5px #fc894d;
+}
+
+.success-button {
+  background-color: green;
+}
+
+.initial-button {
+  background-color: blue;
+}
